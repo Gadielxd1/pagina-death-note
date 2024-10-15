@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Todo sobre Death Note, la famosa serie de manga y anime">
+    <meta name="keywords" content="Death Note, historia, personajes, anime, manga">
+    <meta name="author" content="Tu Nombre">
+    <title>Death Note - Todo sobre la serie</title>
+
+    <style>
+        /* Reset de márgenes y paddings */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif; /* Fuente que da un aspecto más serio */
+            background-color: #000000; /* Fondo negro */
+            color: #f2f2f2; /* Texto blanco */
+            line-height: 1.6;
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            background-color: #111;
+            color: #ff0000; /* Color dorado para el título */
+            padding: 20px 0;
+            text-align: center;
+            border-bottom: 1px solid #444; /* Línea que separa el encabezado */
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        nav {
+            background-color: #111111;
+            text-align: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #444;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: #ff0000;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 40px;
+        }
+
+        .hero {
+            background: url('https://via.placeholder.com/1200x400/333/fff?text=Death+Note') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+            background-size: cover;
+            position: relative;
+            height: 400px;
+        }
+
+        /* Estilo para el título dentro de la hero section */
+        .hero h2 {
+            font-size: 3rem;
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            margin: 0;
+        }
+
+        .contenido {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+
+        .contenido .box {
+            background-color: #222;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+            flex: 1 1 calc(33.333% - 40px);
+            margin-bottom: 40px;
+            border: 1px solid #444; /* Borde que simula el cuaderno */
+        }
+
+        .contenido .box h3 {
+            margin-bottom: 15px;
+            font-size: 1.8rem;
+            color: #ff0000;
+        }
+
+        .contenido .box p {
+            font-size: 1rem;
+            margin-bottom: 10px;
+        }
+
+        .contenido .box img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #111;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: #ff0000;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .contenido .box {
+                flex: 1 1 100%;
+            }
+
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Death Note: La batalla entre Kira y L</h1>
+    </header>
+
+    <!-- Barra de navegación -->
+    <nav>
+        <ul>
+            <li><a href="#seccion1">Historia</a></li>
+            <li><a href="#seccion2">Personajes</a></li>
+            <li><a href="#seccion3">El Death Note</a></li>
+            <li><a href="#seccion4">Curiosidades</a></li>
+            <li><a href="#seccion5">Dónde Ver</a></li>
+            <li><a href="#seccion6">Contactos</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sección de héroe -->
+    <section class="hero">
+        <p><img src="primero.jpg" alt="Imagen hero Death Note" style="max-width:100%; height: auto;"></p>
+    </section>
+
+    <!-- Sección 1: Historia -->
+    <section id="seccion1">
+        <h2 style="text-align: center; margin-top: 40px;">Historia de Death Note</h2>
+        <p style="text-align: center; max-width: 800px; margin: 20px auto;">
+            Death Note es una serie de manga creada por Tsugumi Ohba e ilustrada por Takeshi Obata. La historia sigue a un joven llamado Light Yagami, un brillante pero desilusionado estudiante que descubre un cuaderno sobrenatural llamado "Death Note". Este cuaderno tiene el poder de matar a cualquier persona cuyo nombre sea escrito en él, siempre y cuando el escritor conozca la cara de la víctima.
+        </p>
+        <p style="text-align: center; max-width: 800px; margin: 20px auto;">
+            Light decide usar el Death Note para eliminar a los criminales del mundo y crear un nuevo orden bajo el alias "Kira". Sin embargo, sus acciones lo ponen en conflicto con un enigmático detective conocido como "L", quien busca atraparlo y detener su plan. Lo que sigue es una intensa batalla de ingenio entre los dos, en un juego de estrategia y mentiras que desafía las leyes de la moralidad y la justicia.
+        </p>
+        <p style="text-align: center;"><img src="death note 2.jpg" alt="Death Note manga" style="max-width: 100%; height: auto; margin-top: 20px;"></p>
+    </section>
+
+    <!-- Sección 2: Personajes -->
+    <section id="seccion2">
+        <h2 style="text-align: center; margin-top: 40px;">Personajes Principales</h2>
+        <div class="contenido">
+            <div class="box">
+                <h3>Light Yagami</h3>
+                <p><img src="Light.avif" alt="Light Yagami" style="max-width: 100%; height: auto;"></p>
+                <p>Light Yagami es el protagonista de la historia. Es un estudiante extremadamente inteligente, pero desencantado con el mundo. Al encontrar el Death Note, decide tomar la justicia en sus manos y convertirse en "Kira", el salvador de un mundo lleno de corrupción y crimen.</p>
+            </div>
+            <div class="box">
+                <h3>L</h3>
+                <p><img src="L.webp" alt="L Death Note" style="max-width: 100%; height: auto;"></p>
+                <p>L es el detective más renombrado del mundo, conocido por su habilidad para resolver casos imposibles. Tiene un enfoque único en la resolución de crímenes y es el principal rival de Light. Su identidad es misteriosa, y su comportamiento excéntrico lo hace un personaje enigmático.</p>
+            </div>
+            <div class="box">
+                <h3>Ryuk</h3>
+                <p><img src="Ryuk 3.webp" alt="Ryuk" style="max-width: 100%; height: auto;"></p>
+                <p>Ryuk es el Shinigami (dios de la muerte) que dejó caer el Death Note en el mundo de los humanos, lo que provoca todo el conflicto de la historia. Aunque tiene un carácter juguetón y disfruta viendo el caos que crea Light, no tiene interés en ayudar o detenerlo, simplemente observa desde las sombras.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección 3: El Death Note -->
+    <section id="seccion3">
+        <h2 style="text-align: center; margin-top: 40px;">El Death Note</h2>
+        <p style="text-align: center; max-width: 800px; margin: 20px auto;">
+            El Death Note es un cuaderno de color negro que tiene el poder de matar a cualquier persona cuyo nombre sea escrito en él, siempre que el escritor conozca la cara de la víctima. Para utilizarlo, el propietario debe seguir ciertas reglas que están escritas en la primera página del cuaderno. A lo largo de la serie, se revelan más reglas que complican su uso y añaden giros inesperados a la trama.
+        </p>
+        <p style="text-align: center;"><img src="imagen en blanco.png" alt="Death Note" style="max-width: 100%; height: auto; margin-top: 20px;"></p>
+    </section>
+
+    <!-- Sección 4: Curiosidades -->
+    <section id="seccion4">
+        <h2 style="text-align: center; margin-top: 40px;">Curiosidades</h2>
+        <ul style="max-width: 800px; margin: 20px auto;">
+            <li>El personaje de Light Yagami está inspirado en un arquetipo de antihéroe.</li>
+            <li>La serie ha vendido más de 30 millones de copias en todo el mundo.</li>
+            <li>Death Note ha sido adaptada a varias películas de acción en vivo, dramas y videojuegos.</li>
+            <li>El creador, Tsugumi Ohba, se inspiró en la idea de la vida y la muerte al crear la serie.</li>
+        </ul>
+    </section>
+
+    <!-- Sección 5: Dónde Ver -->
+    <section id="seccion5">
+        <h2 style="text-align: center; margin-top: 40px;">¿Dónde Ver Death Note?</h2>
+        <div class="contenido">
+            <div class="box">
+                <h3>Crunchyroll</h3>
+                <p><img src="crunchirol-removebg-preview.png" alt="Crunchyroll" style="max-width: 100%; height: auto;"></p>
+                <p>Death Note está disponible para streaming en Crunchyroll. Los suscriptores pueden ver toda la serie sin publicidad.</p>
+            </div>
+            <div class="box">
+                <h3>Netflix</h3>
+                <p><img src="netflix-removebg-preview.png " alt="Netflix" style="max-width: 100%; height: auto;"></p>
+                <p>También puedes encontrar Death Note en Netflix, donde está disponible para todos los suscriptores.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección 6: Contactos -->
+    <section id="seccion6">
+        <h2 style="text-align: center; margin-top: 40px;">Contactos</h2>
+        <p style="text-align: center; max-width: 800px; margin: 20px auto;">
+            Para más información sobre Death Note, puedes contactarnos a través de los siguientes medios:
+        </p>
+        <ul style="max-width: 800px; margin: 20px auto; text-align: center;">
+            <li>Email: <a href="mailto:info@deathnote.com">info@deathnote.com</a></li>
+            <li>Teléfono: +123 456 7890</li>
+            <li>Dirección: 123 Death Note St, Ciudad Oscura, Japón</li>
+        </ul>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Death Note Fan Page. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
